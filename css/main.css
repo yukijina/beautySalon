@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #373738;
+  background-color: #f4f4f4;
+}
+
+.nav-wrapper {
+  position: fixed;
+  top: 10px;
+  right: 30px;
+}
+
+.nav-wrapper .item {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  color: #373738;
+  text-decoration: none;
+}
+
+.nav-wrapper .item:hover {
+
+}
+
+main {
+  background-image: url("../img/hero.jpeg");
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#about,
+#service,
+#garally,
+#location,
+#contact {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#service,
+#location {
+  background-color: rgb(46, 203, 234, 0.1);
+}
+
+#about img {
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #2d2d2d;
+  height: 5rem;
+  color: #f4f4f4;
+}
