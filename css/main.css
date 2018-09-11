@@ -49,9 +49,37 @@ main {
   background-color: rgb(46, 203, 234, 0.1);
 }
 
+/****** About *****/
 #about img {
   border-radius: 50%;
 }
+
+/***** Service *****/
+#menu {
+  padding: 10px 28px;
+  border-radius: 50px;
+  background-color: #118fa3;
+  border: none;
+  color: #f2f2f2;
+  transition: all 1s;
+}
+
+#menu:link,
+#menu:visited {
+  text-decoration: none;
+  transition: all 1s;
+}
+
+#menu:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+#menu:active {
+  transition: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
 
 footer {
   background-color: #2d2d2d;
