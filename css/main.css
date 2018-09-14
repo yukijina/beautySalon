@@ -92,3 +92,14 @@ footer {
   height: 5rem;
   color: #f4f4f4;
 }
+
+/* Animation */
+.js-about-text,
+.js-about-me {
+  opacity: 0;
+}
+
+.js-about-text .animated,
+.js-about-me .animated {
+  opacity: 1;
+}
