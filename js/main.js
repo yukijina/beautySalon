@@ -10,16 +10,19 @@ toggleBtn.addEventListener('click', function() {
 var waypoint = new Waypoint({
   element: document.getElementsByClassName('js-about-text')[0],
   handler: function(direction) {
-    this.element.className += ' animated fadeInRight'
-  },
-
-
-  element: document.getElementsByClassName('js-about-me')[0],
-  handle: function(direction) {
     this.element.className += ' animated fadeInLeft'
     console.log(this.element)
   },
-   offset: '50%'
+  offset: '50%'
+})
+
+var waypoint2 = new Waypoint({
+  element: document.getElementsByClassName('js-about-me')[0],
+  handler: function(direction) {
+    this.element.className += ' animated fadeInRight'
+    console.log(this.element)
+  },
+   offset: '45%'
 })
 
 
